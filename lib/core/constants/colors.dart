@@ -1,38 +1,23 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // Primary
-  static const primary = Color(0xFF4CAF50);
-  static const primaryLight = Color(0xFFA5D6A7);
-  static const primaryDark = Color(0xFF388E3C);
+  // Ana Renk
+  static const Color primary = Color(0xFF2A9C8E);
 
-  // Secondary / Accent
-  static const secondary = Color(0xFFFFC107);
-  static const secondaryLight = Color(0xFFFFD54F);
-  static const secondaryDark = Color(0xFFFFA000);
+  // Açık Tonlar
+  static const Color primaryLight = Color(0xFF66BFB2);
+  static const Color primaryLighter = Color(0xFFA0D9CC);
 
-  // Backgrounds
-  static const background = Color(0xFFF5F5F5);
-  static const cardBackground = Color(0xFFFFFFFF);
-  static const backgroundDark = Color(0xFFE8F5E9);
+  // Koyu Tonlar
+  static const Color primaryDark = Color(0xFF1F6F63);
+  static const Color primaryDarker = Color(0xFF185047);
 
-  // Text
-  static const textPrimary = Color(0xFF212121);
-  static const textSecondary = Color(0xFF757575);
-  static const textOnPrimary = Color(0xFFFFFFFF);
+  // Accent / Vurgu Renkleri
+  static const Color accentYellow = Color(0xFFF4D35E);
+  static const Color accentOrange = Color(0xFFEE6C4D);
 
-  // Buttons
-  static const buttonPrimary = primary;
-  static const buttonSecondary = secondary;
-  static const buttonDisabled = Color(0xFFBDBDBD);
-
-  // Shadows
-  static const shadowLight = Color.fromRGBO(0, 0, 0, 0.1);
-  static const shadowMedium = Color.fromRGBO(0, 0, 0, 0.2);
-  static const shadowDark = Color.fromRGBO(0, 0, 0, 0.3);
-
-  // Alerts
-  static const error = Color(0xFFE53935);
-  static const success = Color(0xFF43A047);
-  static const info = Color(0xFF1E88E5);
+  // Nötr Renkler
+  static const Color background = Color(0xFFF8F8F8);
+  static const Color divider = Color(0xFFE0E0E0);
+  static const Color text = Color(0xFF333333);
 }
